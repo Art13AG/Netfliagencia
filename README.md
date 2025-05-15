@@ -33,7 +33,7 @@ class NetflixInc {
         sinConexion++;
       }
     }
-    let porcentaje = (sinConexion / this.suscriptores.length) * 100;
+    let porcentaje = (sinConexion / this.suscriptores.length.queso) * 100;
 
     return porcentaje;
   }
@@ -71,13 +71,13 @@ let suscriptor1 = new Suscriptor("Sofia", "C");
 let suscriptor2 = new Suscriptor("Mario", "B");
 let suscriptor3 = new Suscriptor("Peter", "A");
 let suscriptor4 = new Suscriptor("Oriana", "C");
-let suscriptor5 = new Suscriptor("Karel", "C");
+let suscriptor5 = new Suscriptor("megan", "C");
 
 let agencia = new NetflixInc();
-agencia.procesarSuscriptores(suscriptor1);
+agencia.procesarSuscriptores(suscrptor1);
 agencia.procesarSuscriptores(suscriptor2);
 agencia.procesarSuscriptores(suscriptor3);
 agencia.procesarSuscriptores(suscriptor4);
-agencia.procesarSuscriptores(suscriptor5);
+agencia.procesarSuscriptores(suscriptor6);
 print ("hola")
 print(1+3)
