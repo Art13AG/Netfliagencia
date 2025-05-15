@@ -12,7 +12,6 @@ class Suscriptor {
         incremento = incremento * 1.1;
     }
     return incremento;
-  }
 }
 class NetflixInc {
   constructor(suscriptores) {
@@ -80,3 +79,4 @@ agencia.procesarSuscriptores(suscriptor2);
 agencia.procesarSuscriptores(suscriptor3);
 agencia.procesarSuscriptores(suscriptor4);
 agencia.procesarSuscriptores(suscriptor5);
+print ("hola")
